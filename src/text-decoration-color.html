@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<!-- Author: Vikash Agrawal <vikashagrawal1990@gmail.com -->
+<html>
+	<head>
+		<title>text-decoration-color</title>
+		
+		<style>
+ 			#first
+ 			{
+ 				color: #FF0000;
+ 				text-decoration: underline;
+ 			}
+ 			#first:hover
+ 			{
+ 				color: #0000FF;
+ 				text-decoration: line-through;
+ 			}
+ 			#second
+ 			{
+ 				color: #FF0000;
+ 				text-decoration: underline;
+ 			}
+ 			#second:hover
+ 			{
+ 				color: #0000FF;
+ 				text-decoration: overline;
+ 			}
+ 			#third
+ 			{
+ 				color: #FF0000;
+ 				text-decoration: overline;
+ 			}
+ 			#third:hover
+ 			{
+ 				color: #0000FF;
+ 				text-decoration: underline;
+ 			}
+ 			article
+ 			{
+ 				color: #000000;
+				text-decoration: inherit;
+ 			}
+ 			article:hover
+ 			{
+ 				color: #000000;
+				text-decoration: underline;
+ 			}
+ 			blockquote
+ 			{
+ 				color: #0000FF;
+ 				text-decoration: none;
+ 			}
+ 			blockquote:hover
+ 			{
+ 				color: #FF0000;
+ 				text-decoration: line-through;
+ 			}
+ 			pre
+ 			{
+ 				color: #0000FF;
+ 				text-decoration: blink;
+ 			}
+		</style>
+		
+	</head>
+
+	<body>
+		<h1>text-decoration-color</h1>
+		<h2>Examples</h2>
+		<hr />
+		<ol>
+			<li id="first"><span style="color:black">Here underline changes to line through</span></li><br />
+			<li id="second"><span style="color:black">Here underline changes to overline</span></li><br />
+			<li id="third"><span style="color:black">In this examples overline changes to underline</span></li>
+		</ol>
+		<hr />
+		<blockquote>Talk is cheap show me the code</blockquote>
+		<hr />
+		<article>This is an article. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+		</article>
+		<hr />
+		<pre>This is the last examples! :)</pre>
+		<hr />
+	</body>
+
+</html>
