@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<!-- Author: Vikash Agrawal <vikashagrawal1990@gmail.com -->
+<html>
+	<head>
+		<title>animation-direction</title>
+		<style type="text/css">
+			div
+			{
+				width: 100px;
+				height: 100px;
+				background: red;
+				position: relative;
+			}
+			@keyframes example
+			{
+				0%   {background:blue; left:0px; top:0px;}
+				25%  {background:green; left:200px; top:0px;}
+				50%  {background:red; left:200px; top:200px;}
+				75%  {background:yellow; left:0px; top:200px;}
+				100% {background:blue; left:0px; top:0px;}
+			}
+			@-moz-keyframes example
+			{
+				0%   {background:blue; left:0px; top:0px;}
+				25%  {background:green; left:200px; top:0px;}
+				50%  {background:red; left:200px; top:200px;}
+				75%  {background:yellow; left:0px; top:200px;}
+				100% {background:blue; left:0px; top:0px;}
+			}
+			@-webkit-keyframes example
+			{
+				0%   {background:blue; left:0px; top:0px;}
+				25%  {background:green; left:200px; top:0px;}
+				50%  {background:red; left:200px; top:200px;}
+				75%  {background:yellow; left:0px; top:200px;}
+				100% {background:blue; left:0px; top:0px;}
+			}
+			@-o-keyframes example
+			{
+				0%   {background:blue; left:0px; top:0px;}
+				25%  {background:green; left:200px; top:0px;}
+				50%  {background:red; left:200px; top:200px;}
+				75%  {background:yellow; left:0px; top:200px;}
+				100% {background:blue; left:0px; top:0px;}
+			}
+			
+			#alt
+			{
+				animation-name: example;
+				animation-duration: 5s;
+				animation-timing-function: linear;
+				animation-iteration-count: infinite;
+				animation-direction: alternate;
+				animation-play-state: running;
+				
+				-moz-animation-name: example;
+				-moz-animation-duration: 5s;
+				-moz-animation-timing-function: linear;
+				-moz-animation-iteration-count: infinite;
+				-moz-animation-direction: alternate;
+				-moz-animation-play-state: running;
+				
+				
+				-webkit-animation-name: example;
+				-webkit-animation-duration: 5s;
+				-webkit-animation-timing-function: linear;
+				-webkit-animation-iteration-count: infinite;
+				-webkit-animation-direction: alternate;
+				-webkit-animation-play-state: running;
+				
+				-o-animation-name: example;
+				-o-animation-duration: 5s;
+				-o-animation-timing-function: linear;
+				-o-animation-iteration-count: infinite;
+				-o-animation-direction: alternate;
+				-o-animation-play-state: running;
+			}
+			#rev
+			{
+				animation-name: example;
+				animation-duration: 5s;
+				animation-timing-function: linear;
+				animation-iteration-count: infinite;
+				animation-direction: reverse;
+				animation-play-state: running;
+				
+				-moz-animation-name: example;
+				-moz-animation-duration: 5s;
+				-moz-animation-timing-function: linear;
+				-moz-animation-iteration-count: infinite;
+				-moz-animation-direction: reverse;
+				-moz-animation-play-state: running;
+				
+				
+				-webkit-animation-name: example;
+				-webkit-animation-duration: 5s;
+				-webkit-animation-timing-function: linear;
+				-webkit-animation-iteration-count: infinite;
+				-webkit-animation-direction: reverse;
+				-webkit-animation-play-state: running;
+				
+				-o-animation-name: example;
+				-o-animation-duration: 5s;
+				-o-animation-timing-function: linear;
+				-o-animation-iteration-count: infinite;
+				-o-animation-direction: reverse;
+				-o-animation-play-state: running;
+			}
+			#alt-rev
+			{ 
+				animation-name: example;
+				animation-duration: 5s;
+				animation-timing-function: linear;
+				animation-iteration-count: infinite;
+				animation-direction: alternate-reverse;
+				animation-play-state: running;
+				
+				-moz-animation-name: example;
+				-moz-animation-duration: 5s;
+				-moz-animation-timing-function: linear;
+				-moz-animation-iteration-count: infinite;
+				-moz-animation-direction: alternate-reverse;
+				-moz-animation-play-state: running;
+				
+				
+				-webkit-animation-name: example;
+				-webkit-animation-duration: 5s;
+				-webkit-animation-timing-function: linear;
+				-webkit-animation-iteration-count: infinite;
+				-webkit-animation-direction: alternate-reverse;
+				-webkit-animation-play-state: running;
+				
+				-o-animation-name: example;
+				-o-animation-duration: 5s;
+				-o-animation-timing-function: linear;
+				-o-animation-iteration-count: infinite;
+				-o-animation-direction: alternate-reverse;
+				-o-animation-play-state: running;
+			}
+		</style>
+	</head>
+	<body>
+		<h1>animation-direction</h1>
+		<h2>Examples</h2>
+		<hr />
+		<div id="alt">Alternate</div>
+		<div id="rev">Reverse</div>
+		<div id="alt">Alternate-Reverse</div>
+	</body>
+	
+</html>
