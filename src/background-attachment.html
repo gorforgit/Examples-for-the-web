@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<!-- Author: Vikash Agrawal <vikashagrawal1990@gmail.com -->
+<html>
+	<head>
+		<title>background-attachment</title>
+		
+		<style type="text/css">
+			body
+			{
+				height: 1920px;
+			}
+			div
+			{
+				margin: 15px;
+				height: 100px;
+				background-repeat: no-repeat;
+				background-image: url("../img/starsolid.gif");
+			}
+			.scroll
+			{
+				background-attachment: scroll;
+			}
+			.fixed
+			{
+				background-repeat: repeat;
+				background-attachment: fixed;
+			}
+			.inherit
+			{
+				background-attachment: inherit;
+			}
+		</style>
+	</head>
+	
+	<body>
+		<h1>background-attachment</h1>
+		<h2>Examples</h2>
+		<hr />
+		<div class="scroll">Scroll</div>
+		<div class="fixed">Fixed</div>
+		<div class="inherit">Inherit</div>
+	</body>
+	
+</html>
