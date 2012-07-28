@@ -2,7 +2,7 @@
 <!-- Author: Vikash Agrawal <vikashagrawal1990@gmail.com -->
 <html>
 	<head>
-		<title>animation-direction</title>
+		<title>animation-timing-function</title>
 		<style type="text/css">
 			div
 			{
@@ -48,26 +48,26 @@
 			{
 				animation-name: example;
 				animation-duration: 5s;
-				animation-timing-function: linear;
+				animation-timing-function:ease;
 				animation-iteration-count: infinite;
 				animation-play-state: running;
 				
 				-moz-animation-name: example;
 				-moz-animation-duration: 5s;
-				-moz-animation-timing-function: linear;
+				-moz-animation-timing-function: ease;
 				-moz-animation-iteration-count: infinite;
 				-moz-animation-play-state: running;
 				
 				
 				-webkit-animation-name: example;
 				-webkit-animation-duration: 5s;
-				-webkit-animation-timing-function: linear;
+				-webkit-animation-timing-function: ease;
 				-webkit-animation-iteration-count: infinite;
 				-webkit-animation-play-state: running;
 				
 				-o-animation-name: example;
 				-o-animation-duration: 5s;
-				-o-animation-timing-function: linear;
+				-o-animation-timing-function: ease;
 				-o-animation-iteration-count: infinite;
 				-o-animation-play-state: running;
 			}
@@ -98,14 +98,98 @@
 				-o-animation-iteration-count: infinite;
 				-o-animation-play-state: running;
 			}
+			#third
+			{
+				animation-name: example;
+				animation-duration: 5s;
+				animation-timing-function: ease-in;
+				animation-iteration-count: infinite;
+				animation-play-state: running;
+				
+				-moz-animation-name: example;
+				-moz-animation-duration: 5s;
+				-moz-animation-timing-function: ease-in;
+				-moz-animation-iteration-count: infinite;
+				-moz-animation-play-state: running;
+				
+				
+				-webkit-animation-name: example;
+				-webkit-animation-duration: 5s;
+				-webkit-animation-timing-function: ease-in;
+				-webkit-animation-iteration-count: infinite;
+				-webkit-animation-play-state: running;
+				
+				-o-animation-name: example;
+				-o-animation-duration: 5s;
+				-o-animation-timing-function: ease-in;
+				-o-animation-iteration-count: infinite;
+				-o-animation-play-state: running;
+			}
+			#fourth
+			{
+				animation-name: example;
+				animation-duration: 5s;
+				animation-timing-function: ease-out;
+				animation-iteration-count: infinite;
+				animation-play-state: running;
+				
+				-moz-animation-name: example;
+				-moz-animation-duration: 5s;
+				-moz-animation-timing-function: ease-out;
+				-moz-animation-iteration-count: infinite;
+				-moz-animation-play-state: running;
+				
+				
+				-webkit-animation-name: example;
+				-webkit-animation-duration: 5s;
+				-webkit-animation-timing-function: ease-out;
+				-webkit-animation-iteration-count: infinite;
+				-webkit-animation-play-state: running;
+				
+				-o-animation-name: example;
+				-o-animation-duration: 5s;
+				-o-animation-timing-function: ease-out;
+				-o-animation-iteration-count: infinite;
+				-o-animation-play-state: running;
+			}
+			#fifth
+			{
+				animation-name: example;
+				animation-duration: 5s;
+				animation-timing-function: ease-in-out;
+				animation-iteration-count: infinite;
+				animation-play-state: running;
+				
+				-moz-animation-name: example;
+				-moz-animation-duration: 5s;
+				-moz-animation-timing-function: ease-in-out;
+				-moz-animation-iteration-count: infinite;
+				-moz-animation-play-state: running;
+				
+				
+				-webkit-animation-name: example;
+				-webkit-animation-duration: 5s;
+				-webkit-animation-timing-function: ease-in-out;
+				-webkit-animation-iteration-count: infinite;
+				-webkit-animation-play-state: running;
+				
+				-o-animation-name: example;
+				-o-animation-duration: 5s;
+				-o-animation-timing-function: ease-in-out;
+				-o-animation-iteration-count: infinite;
+				-o-animation-play-state: running;
+			}
 		</style>
 	</head>
 	<body>
-		<h1>animation-direction</h1>
+		<h1>animation-timing-function</h1>
 		<h2>Examples</h2>
 		<hr />
-		<div id="first">Paused</div>
-		<div id="second">Running</div>
+		<div id="first">Ease</div>
+		<div id="second">Linear</div>
+		<div id="third">Ease-in</div>
+		<div id="fourth">Ease-out</div>
+		<div id="fifth">Ease-in-out</div>
 	</body>
 	
 </html>
