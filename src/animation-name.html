@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<!-- Author: Vikash <vikashagrawa1990@gmail.com> -->
+<html>
+	<head>
+		<title>animation-name</title>
+		<style type="text/css">
+			pre
+			{
+				border-style: dotted;
+				border-width: 1px;
+				width: 650px;	
+			}
+		</style>
+	</head>
+	<body>
+		<h1>animation-name</h1>
+		<h2>Examples</h2>
+		<hr />
+		<pre>animation-name : Example-1 
+			@keyframes Example-1 {
+				0%   {background: red;}
+				25%  {background: yellow;}
+				50%  {background: blue;}
+				100% {background: green;}
+			}
+		</pre>
+		<pre>animation-name : Example-2
+			@keyframes Example-2 {
+				0%   {background: red; left:0px; top:0px;}
+				25%  {background: yellow; left:200px; top:0px;}
+				50%  {background: blue; left:200px; top:200px;}
+				75%  {background: green; left:0px; top:200px;}
+				100% {background: red; left:0px; top:0px;}
+			}
+		</pre>
+		<pre>animation-name : Example-3
+			@keyframes Example-3 {
+				0% { top: 0; left: 0; }
+				30% { top: 50px; }
+				68%, 72% { left: 50px; }
+				100% { top: 100px; left: 100%; }
+			}
+		</pre>
+	</body>
+</html>
