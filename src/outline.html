@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<!-- Author: Vikash <vikashagrawa1990@gmail.com> -->
+<html>
+  <head>
+    <title>outline: CSS Examples : MDN</title>
+    <style type="text/css">
+      .none {
+	          padding: 10px;
+	          width: 500px;
+	          outline: none;
+      }
+      .dashed {
+	          padding: 10px;
+	          width: 500px;
+	          outline: dashed;
+      }
+      .solid {
+	          padding: 10px;
+	          width: 500px;
+	          outline: 5px solid;
+      }
+      .double {
+	          padding: 10px;
+	          width: 500px;
+	          outline: 5px double;
+      }
+      .groove {
+	          padding: 10px;
+	          width: 500px;
+	          outline: 10px groove;
+      }
+      .ridge {
+	          padding: 10px;
+	          width: 500px;
+	          outline: 15px ridge #ff0000;
+      }
+      .inset {
+	          padding: 10px;
+	          width: 500px;
+                  outline: 15px inset #00ff00;
+      }
+      
+      
+      .outset {
+	          padding: 10px;
+	          width: 500px;
+	          outline: 15px outset #0000ff;
+      }
+      #table {
+              font-family: verdana,arial,sans-serif;
+              font-size:14px;
+              width: 500px;
+              outline: 6px solid #8B8378;
+              -moz-outline-radius: 1px;
+      }
+	  div {
+	        width: 230px;
+	        height: 100px;
+	    	display: block; 
+	    	background-color: #CCCCCC;
+			outline-color: #0000FF;
+			outline-style: ridge;
+			outline-width: 5px;
+		}
+		pre {
+			outline-color: #000000;
+			outline-style: dotted;
+			outline-width: 1px;
+		}
+		
+		#PreFirst {
+			outline-color: #FF0000;
+			outline-style: inset;
+			outline-width: 5px;
+		}
+		blockquote {
+			outline-color: #364E27;
+			outline-style: dashed;
+			outline-width: 5px;
+		}
+    </style>
+  </head>
+  
+  <body>
+    <h1>CSS Examples: outline</h1>
+    
+    <h2>Examples</h2>
+    <hr />
+    <table id="table" cellspacing="10" cellpadding="10">
+      <tr>
+	<td class="none">This text is set to outline property none. So no outline is observed here
+	  <pre>
+	    .none {
+	          padding: 10px;
+	          width: 300px;
+	          outline: none;
+	    }
+	  </pre>
+	</td>
+      </tr>
+      <tr>
+	<td class="dashed">This text has a dashed outline.
+	  <pre>
+	    .dashed {
+	          padding: 10px;
+	          width: 300px;
+	          outline: dashed;
+	    }
+	  </pre>
+	</td>
+      </tr>
+      <tr>
+	<td class="solid">This has a solid outline and width of 5px
+	  <pre>
+	    .solid {
+	          padding: 10px;
+	          width: 300px;
+	          outline: 5px solid;
+	    
+	    }
+	  </pre>
+	</td>
+      </tr>
+      <tr>
+	<td class="double">This text has a double outline and its width is 5px
+	  <pre>
+	    .double {
+	          padding: 10px;
+	          width: 300px;
+	          outline: 5px double;
+	    }
+	  </pre>
+	</td>
+      </tr>
+      <tr>
+	<td class="groove">This text has 10px groove outline
+	  <pre>
+	    .groove {
+	          padding: 10px;
+	          width: 300px;
+	          outline: 10px groove;
+	    }
+	  </pre>
+	</td>
+      </tr>
+      <tr>
+	<td class="ridge">This text has 20px ridge outline with red color
+	  <pre>
+	    .ridge {
+	          padding: 10px;
+	          width: 300px;
+	          outline: 15px ridge #ff00000;
+	    }
+	  </pre>
+	</td>
+      </tr>
+      <tr>
+	<td class="inset">This text has 20px inset outline in green color
+	  <pre>
+	    .inset {
+	          padding: 10px;
+	          width: 300px;
+	          outline: 15px inset #00ff00;
+	    }
+	  </pre>
+	</td>
+      </tr>
+      <tr>
+	<td class="outset">This text has 20px outset bordoutline-color: reer in blue color
+	  <pre>
+	    .outset {
+	          padding: 10px;
+	          width: 300px;
+	          outline: 15px outset #0000ff;
+	    }
+	  </pre>
+	</td>
+      </tr>
+    </table>
+    
+    <ul>
+    	<li>
+	    		<div>
+			    	<ul>
+			    		<li>outline-color: blue</li>
+			    		<li>outline-style: ridge</li>
+			    		<li>outline-width: 5px</li>
+			    	</ul>
+			    </div>			   	
+	    	</li>
+	   
+	    	<li>
+	    		<pre id="PreFirst">outline-color: red</pre>
+	    	</li>
+	   
+   			<li><blockquote>bockquote</blockquote></li> 	
+    </ul>
+    
+    <hr />    
+</body>
+</html>
